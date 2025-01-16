@@ -1,0 +1,21 @@
+p{
+    font-size: 30px;
+    color: purple
+}
+
+h1 {
+    color:aquamarine;
+    font-size: 100px;  
+}
+
+main {
+    background-color: chocolate;
+}
+
+body {
+    background-color: darkolivegreen;
+}
+
+footer {
+    background-color: darkslateblue;
+}
