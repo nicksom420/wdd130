@@ -1,4 +1,9 @@
 body {
     background-color:#5ca1d7;
-    text-align: Center;
+    
+}
+
+.centered_stuff {
+    display:block;
+    margin: 0 auto;
 }
