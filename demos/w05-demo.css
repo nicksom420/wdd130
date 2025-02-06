@@ -1,0 +1,14 @@
+/* Block Practice */
+
+* {
+    box-sizing: border-box; /* Includes the padding and the magin in the width*/
+}
+
+p {
+    width: 500px;
+    background-color: brown;
+    color: white;
+    padding: 50px;
+    border: 10px dotted black;
+    margin: 100px;
+}
