@@ -224,6 +224,55 @@ main selection img {
     grid-template-columns: repeat(10, 1fr);
 }
 
+.river-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+#top-river, #bottom-river {
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+
+}
+
+#top-river img {
+    grid-column: 1/2;
+    border: 5px solid black;
+
+}
+
+#middle-river {
+    display: grid;
+    grid-template-columns:1fr 500px;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#middle-river img {
+    grid-column: 2/3;
+    border: 5px solid black
+}
+
+#middle-river section {
+    grid-row: 1/2;
+}
+
+#bottom-river img {
+    border: 5px solid black;
+}
+
+#second-page footer {
+    margin: 0;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
