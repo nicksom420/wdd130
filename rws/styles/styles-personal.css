@@ -93,6 +93,10 @@ nav {
 
 /* Header and footer css */
 
+p {
+    padding: 15px;
+}
+
 #background {
     position: fixed;
     top: 0;
@@ -150,7 +154,7 @@ nav {
 }
 
 .job-description {
-    width: 100%;
+    
     background-color: var(--secondary-color);
     border: solid 5px var(--accent1-color);
     border-radius: 5px;
@@ -163,6 +167,7 @@ nav {
 }
 
 .job-description img {
+    height: 350px;
     width: 100%;
     border: solid 5px var(--accent2-color);
 }
