@@ -29,6 +29,14 @@
     box-sizing: border-box;
   }
 
+  h h1 h2 h3 h4 h5 h6 {
+    font-family: var(--paragraph-font);
+  }
+
+  p {
+    font-family: var(--heading-font);
+  }
+
 
 header {
     background-color: var(--primary-color);
@@ -196,4 +204,259 @@ p {
     grid-column: 3; /* Places the third item in the third column */
 }
 
+
+/* Second Page */
+
+#coverletter {
+    background-color: var(--secondary-color);
+    
+    
+}
+
+#coverletter h1 {
+    text-align: center;
+    margin: 0 auto;
+    width: 250px;
+    margin-top: 20px;
+    border: solid 5px var(--accent1-color);
+    background-color: var(--accent2-color);
+    color: var(--secondary-color);
+}
+
+#letter-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 220px 300px 350px;
+    border: solid 5px var(--accent1-color);
+    background-color: var(--accent2-color);
+    margin: 50px;
+}
+
+#letter-layout img {
+    width: 250px;
+}
+
+#letter-layout {
+    font-size: 0.9em;
+}
+
+#laptop {
+    grid-row: 1/2;
+    align-self: center;
+    justify-self: center;
+    margin-right: 10px;
+    border: solid 5px var(--secondary-color);
+}
+
+#interview {
+    grid-row: 3/4;
+    align-self: center;
+    justify-self: center;
+    margin-right: 10px;
+    border: solid 5px var(--secondary-color);
+}
+
+#paragraph1 {
+    grid-row: 1/2;
+    font-size: 1.5em;
+}
+
+#paragraph2 {
+    grid-row: 2/3 ;
+    font-size: 1.5em;
+    grid-column: 1/3;
+}
+
+#paragraph3 {
+    grid-row: 3/4;
+    font-size: 1.5em;
+}
+
+#remark {
+    font-size: 1.5em;
+    
+}
+
+/* third page */
+
+#me-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 600px 1fr;
+}
+
+#mehead h1 {
+    grid-column: 1/3;
+    grid-column: 1/2;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#slideshow-container {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#me-container p {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#me-container {
+    justify-items: center;
+    align-items: center;
+}
+
+#component {
+    margin: 15px;
+}
+
+#me-container p {
+    font-size: 1.5em;
+    line-height: 2;
+}
+
+#form {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    margin: 15px;
+    border: solid 5px var(--accent1-color);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: var(--accent2-color);
+    color: var(--secondary-color);
+
+}
+
+#contacts {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 100px;
+}
+
+.social-link {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-link img:hover {
+    box-shadow: 0 10px 20px var(--accent1-color)
+
+}
+
+#contacts img {
+    width: 150px;
+    height: auto;
+    border: solid 5px var(--accent1-color);
+    border-radius: 125px
+}
+
+label, input, textarea, button {
+    display: block;
+    width: 20rem; 
+
+}
+
+#content {
+    border: 5px solid black;
+    justify-items: center;
+    width: 22rem;
+    justify-self: center;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+input, textarea {
+    margin-bottom: 1rem;
+}
+
+label {
+    font-weight: bold;
+}
+
+
+.slideimg {
+    min-height: 450px;
+    max-height: 450px;
+}
+
+* {box-sizing: border-box;}
+body {
+    font-family: Verdana, sans-serif;
+    background-color: var(--secondary-color);
+}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 400px;
+  height: auto;
+  position: relative;
+  margin: auto;
+  border: solid 5px #606C38  ;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  text-shadow:  2px 2px 4px black;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  text-shadow:  2px 2px 4px black;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #DDA15E;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color:#BC6C25 ;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+#dot-container {
+    width: 150px;
+    border: solid 5px #606C38;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #FEFAE0;
+
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
 
