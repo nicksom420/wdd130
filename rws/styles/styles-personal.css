@@ -30,11 +30,11 @@
   }
 
   h h1 h2 h3 h4 h5 h6 {
-    font-family: var(--paragraph-font);
+    font-family: var(--heading-font);
   }
 
   p {
-    font-family: var(--heading-font);
+    font-family: var(--paragraph-font);
   }
 
 
@@ -237,7 +237,7 @@ p {
 }
 
 #letter-layout {
-    font-size: 0.9em;
+    font-size: 1.2em;
 }
 
 #laptop {
